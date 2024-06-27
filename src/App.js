@@ -9,6 +9,8 @@ import {
 import Home from "./Pages/Home";
 import LoginPage from "./Pages/LoginPage";
 import SignUpPage from "./Pages/SignUpPage";
+import Cart from "./features/Cart Section/Cart";
+import CartPage from "./Pages/CartPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
     path: "/SignUp",
     element: <SignUpPage/>,
   },
+  {
+    path:"/cart",
+    element: <CartPage/>
+  }
 ]);
 
 function App() {
